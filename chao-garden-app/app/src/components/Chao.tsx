@@ -10,7 +10,10 @@ export default function Chao({ chaoId }: { chaoId: string }) {
 
   return (
     <View className="items-center mt-6">
-      <Image source={require("../../assets/chao.png")} className="w-32 h-32" />
+      <Image
+        source={require("../../../assets/images/chao.jpg")}
+        className="w-32 h-32"
+      />
       <Text className="text-xl font-bold">{chao.name}</Text>
       <Text>Hunger: {chao.hunger}</Text>
       <Text>Happiness: {chao.happiness}</Text>
