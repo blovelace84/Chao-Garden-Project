@@ -3,11 +3,6 @@ import { View, Text, Pressable } from "react-native";
 export default function HomeScreen() {
   return (
     <View className="flex-1 bg-sky-200 items-center justify-center">
-      {/* Title */}
-      <Text className="text-5xl font-extrabold text-white drop-shadow-md">
-        Chao Garden
-      </Text>
-
       <Text className="text-lg text-white/90 mt-2 mb-12">
         A peaceful place to raise your chao
       </Text>
