@@ -1,5 +1,6 @@
 import { View, Text } from "react-native";
 import HomeScreen from "./src/screens/HomeScreen";
+import "./global.css";
 
 export default function Index() {
   return (
