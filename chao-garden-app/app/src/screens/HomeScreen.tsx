@@ -1,13 +1,14 @@
 import { View, Text, Pressable } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
+import RoamingChao from "../components/RoamingChao";
 
 export default function HomeScreen() {
   return (
     <View className="flex-1 bg-gradient-to-b from-blue-300 via-sky-200 to-emerald-100 items-center justify-center px-6">
+      <RoamingChao />
       {/* Header Section */}
       <View className="absolute bottom-0 w-full h-40 bg-green-400 rounded-t-3xl mb-16 items-center">
-        <Text className="text-5xl mb-4">🥚</Text>
-        <Text className="text-3xl font-bold text-slate-800 mb-4">
+        <Text className="text-5xl font-extrabold tracking-wide text-white drop-shadow-xl">
           Chao Garden
         </Text>
         <Text className="text-lg text-slate-700 text-center leading-6">
