@@ -1,11 +1,11 @@
 import { Animated, Text } from "react-native";
 import { useEffect, useRef } from "react";
 
-// const decorativeChaos = [
-//   { id: "1", x: 40, emoji: "" },
-//   { id: "2", x: 80, emoji: "🌱" },
-//   { id: "3", x: 120, emoji: "🌸" },
-// ];
+const decorativeChaos = [
+  { id: "1", x: 40, emoji: "🥚" },
+  { id: "2", x: 80, emoji: "🐣" },
+  { id: "3", x: 120, emoji: "🐥" },
+];
 export default function RoamingChao() {
   const translateX = useRef(new Animated.Value(0)).current;
   const translateY = useRef(new Animated.Value(0)).current;
